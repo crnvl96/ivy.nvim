@@ -33,7 +33,7 @@ Using [mini.deps](https://github.com/echasnovski/mini.deps)
 
 ```lua
 local deps = require "mini.deps"
-deps.later(function() -- Or `deps.nor` if you want this to be loaded immediately
+deps.later(function() -- Or `deps.now` if you want this to be loaded immediately
   local build = function(args)
     local obj = vim
       .system(
